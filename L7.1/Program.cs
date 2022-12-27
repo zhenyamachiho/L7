@@ -27,7 +27,7 @@ double[,] InitMatrix(double m, double n)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = rnd.Next(1, 10) + rnd.NextDouble();
+            matrix[i, j] = rnd.Next(-10, 10) + rnd.NextDouble();
         }
     }
 
